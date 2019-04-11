@@ -7,21 +7,6 @@ calculator program yourself in this file.
 from arithmetic import *
 
 
-# def make_int(num1, num2):
-    #make the second and third token into ints
-# def tokens_used(sym, int(num1), int(num2 = None)):
-#     user_input = input()
-
-#     token_2 = user_input.split(" ")
-
-#     #token3 is optional (make it have a default value)
-#     #function always needs at least two arguments
-#     sym = tokenized[0]
-
-#     #returns the tokens needed for the situation calling the function
-#     return [sym, num1, num2]
-
-
 def mathstufffornow():
     """Read user input and evaluate the numbers based on math thing done"""
     while True:
@@ -40,8 +25,6 @@ def mathstufffornow():
         else:
         #make them all ints
         #new variables for tokenized values
-            # sym = tokenized[0]
-            # num1 = int(tokenized[1])
             # if the list has 3 items the last num2 is the last item 
             # if input has 3 items, 3 variables will be made
             if len(tokenized) == 3:
